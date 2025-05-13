@@ -3,11 +3,13 @@ package service;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 
 public class FormReader {
-    String path = "C:\\Users\\fabri\\Documents\\formulario.txt";
+    Scanner scan = new Scanner(System.in);
 
+    String path = "F:\\projetosJava\\Sistema de adocao\\petsCadastrados\\formulario.txt";
     public void readForm() {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(path))) {
             String line = bufferedReader.readLine();

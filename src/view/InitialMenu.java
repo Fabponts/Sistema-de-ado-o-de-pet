@@ -1,14 +1,17 @@
 package view;
 
 import exception.InitialMenuException;
+import exception.PetRegistrationException;
 import service.FormReader;
+import service.PetRegistration;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
 public class InitialMenu {
-    FormReader formReader = new FormReader();
+    PetRegistration petRegistration = new PetRegistration();
+
     Scanner scan = new Scanner(System.in);
     private int menuOptions;
 
@@ -35,7 +38,7 @@ public class InitialMenu {
             }
             switch (menuOptions) {
                 case 1:
-                formReader.readForm();
+                    petRegistration.registerAPet();
                     break;
                 case 2:
 
@@ -56,6 +59,8 @@ public class InitialMenu {
             }
         } catch (InputMismatchException e) {
 
+        } catch (PetRegistrationException e) {
+            throw new RuntimeException(e);
         }
     }
 }
