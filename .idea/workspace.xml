@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1868f81-28f0-49dd-87e6-b74af1c9b907" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sistema de adocao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/FormReadException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/InitialMenuException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/program/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/FormReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/InitialMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +22,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Fabponts"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Fabponts/Sistema-de-ado-o-de-pet.git",
+    "accountId": "231958b2-f6af-4ae5-8bf7-ae17f1897b60"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2x0OQL2xY2bz4t9hJaEhN3ZZ9F0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,6 +46,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
