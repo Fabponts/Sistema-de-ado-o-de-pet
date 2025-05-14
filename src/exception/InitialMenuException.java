@@ -2,7 +2,7 @@ package exception;
 
 public class InitialMenuException extends Exception {
 
-    public InitialMenuException(String message){
+    public InitialMenuException(String message) {
         super(message);
     }
 }

@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1868f81-28f0-49dd-87e6-b74af1c9b907" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exception/PetRegistrationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entities/PetGender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/entities/PetSpecie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/FormDataSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/PetRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/PetRuleValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/FormReadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/FormReadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/InitialMenuException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/InitialMenuException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/entities/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/entities/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/FormReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/FormReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/InitialMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InitialMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -22,22 +36,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Fabponts"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Fabponts/Sistema-de-ado-o-de-pet.git",
-    "accountId": "231958b2-f6af-4ae5-8bf7-ae17f1897b60"
-  }
-}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2x0OQL2xY2bz4t9hJaEhN3ZZ9F0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +49,6 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
