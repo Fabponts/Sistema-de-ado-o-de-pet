@@ -7,6 +7,7 @@ import view.InitialMenu;
 
 public class Main {
     public static void main(String[] args) throws InitialMenuException {
+        //Creating objects
         FormReader formReader = new FormReader();
         InitialMenu initialMenu = new InitialMenu();
         Address address = new Address();

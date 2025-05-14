@@ -1,10 +1,12 @@
 package model.entities;
 
 public class Address {
+    // Address class Attributes
     private Integer number;
     private String city;
     private String street;
 
+    //Address class Constructors
     public Address(){
     }
     public Address(Integer number, String city, String street){
@@ -13,6 +15,7 @@ public class Address {
         this.street = street;
     }
 
+    //Address class getters and setters
     public Integer getNumber() {
         return number;
     }
@@ -37,6 +40,7 @@ public class Address {
         this.street = street;
     }
 
+    //Address class method toString
     @Override
     public String toString(){
         String format = String.format("Street %s Number %d %s",getStreet(),getNumber(),getCity());

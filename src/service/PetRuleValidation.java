@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PetRuleValidation {
-    Pet pet = new Pet();
 
     public void validateData(Pet pet) throws PetRegistrationException {
         List<String> conditionToVerifyRegisterErrors = new ArrayList<>();

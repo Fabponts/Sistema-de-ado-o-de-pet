@@ -1,6 +1,7 @@
 package model.entities;
 
 public class Pet {
+    //Pet class attributes
     private String name;
     private Integer age;
     private Double weight;
@@ -8,6 +9,7 @@ public class Pet {
     private PetGender gender;
     private PetSpecie specie;
 
+    //Pet class constructors
     public Pet() {
     }
 
@@ -20,6 +22,7 @@ public class Pet {
         this.specie = specie;
     }
 
+    //Pet class getters and setters
     private Address address;
 
     public Address getAdress() {

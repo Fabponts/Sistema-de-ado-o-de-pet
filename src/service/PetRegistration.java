@@ -36,7 +36,7 @@ public class PetRegistration {
         int howManyPetsToRegister = scan.nextInt();
         scan.nextLine();
 
-        formReader.readForm();
+        formReader.read();
 
         for (int i = 0; i < howManyPetsToRegister; i++) {
             Pet pet = new Pet();
@@ -74,7 +74,7 @@ public class PetRegistration {
 
             petRuleValidation.validateData(pet);
             petsForAdoption.add(pet);
-            formWriter.saveDataOnFile(pet);
+            formWriter.saveData(pet);
 
         }
     }

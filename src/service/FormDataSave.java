@@ -9,15 +9,18 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class FormDataSave {
-    DateTimeFormatter dateFormatterForFile = DateTimeFormatter.ofPattern("yyyyMMddHHmm");
-    LocalDateTime localDateTime = LocalDateTime.now();
 
-    public void saveDataOnFile(Pet pet){
+
+    public void createAFormatterFileName(Pet pet){
+        DateTimeFormatter dateFormatterForFile = DateTimeFormatter.ofPattern("yyyyMMddHHmm");
+        LocalDateTime localDateTime = LocalDateTime.now();
         String formattedDate = localDateTime.format(dateFormatterForFile);
         String nameFormattedToFile = pet.getName().replaceAll("\\s+"," ").trim().toUpperCase();
-
         String path = "F:\\projetosJava\\Sistema de adocao\\petsCadastrados" + formattedDate + "-" + nameFormattedToFile;
-        try(BufferedWriter writer = new BufferedWriter(new FileWriter(path,true))){
+    }
+    public void writeDataOnFile(Pet pet) throws IOException{
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(createAFormatterFileName(),true));
             writer.write("Name: " + pet.getName() + "\n");
             writer.write("Specie: " + pet.getSpecie() +"\n");
             writer.write("Gender " + pet.getGender() + "\n");
@@ -27,7 +30,10 @@ public class FormDataSave {
             writer.write("Breed: " + pet.getBreed() + "\n");
 
             System.out.println("DATA SAVED");
-
+    }
+    public void saveData(Pet pet){
+        try{
+            writeDataOnFile(pet);
         }catch (IOException e){
             System.out.println("Error" + e.getMessage());
         }
